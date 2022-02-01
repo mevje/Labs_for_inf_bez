@@ -37,4 +37,4 @@ print("Публичный ключ Алисы: ", public_key_alice)
 print("Публичный ключ Боба: ", public_key_bob)
 private_key_alice = int(pow(public_key_bob, a)) % p
 private_key_bob = int(pow(public_key_alice, b)) % p
-    print("Приватный ключи Алисы и Боба: ",private_key_alice, private_key_bob)
+print("Приватный ключи Алисы и Боба: ",private_key_alice, private_key_bob)
